@@ -7,6 +7,7 @@ const Input = ({ label, name }) => (
     type="text"
     placeholder=""
     className={styles.input}
+    onInput={event => event.target.value}
     required
   ></input>
 );

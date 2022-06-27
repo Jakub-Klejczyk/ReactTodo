@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./ListItem.module.scss";
+// import styles from "./ListItem.module.scss";
 import Button from "../Button/Button";
 
 const ListItem = ({ children }) => (
-  <div className={styles.contaier}>
+  <div>
     <p>{children}</p>
     <Button>DEL</Button>
     <Button>DONE</Button>
